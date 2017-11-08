@@ -23,6 +23,6 @@ const fareTripler = function(fare) {
   return createFareMultiplier(3)(fare)
 }
 
-//function selectingDrivers(array,driverSelector) {
-  //return driverSelector(array)()
-//}
+function selectDifferentDrivers(array,driverSelector) {
+  return driverSelector(array)()
+}
